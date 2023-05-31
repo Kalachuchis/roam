@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       fa6f8d77-82c7-4fa8-b8c1-85b823ae4ad2
+:END:
+#+title: Systems of Linear Equations
+#+STARTUP: latexpreview
+
+* Singular vs NonSingular
+
+| Singular        | NonSingular                            |
+|-----------------+----------------------------------------|
+| unique solution | infinite/no solutions                  |
+| complete        | redundant/contradictory                |
+|                 | first row is a multiple of second rows |
+|-----------------+----------------------------------------|
+
+- The name comes from complete, redundant, and contradicting systems of equation when these equations are plotted in a plane and the equations are equated to zero
+- non singular will have 2 lines intersecting at origin
+- singular will become one line only
+
+* Determinant
+determines if matrix is singular or non-singular
+
+\begin{equation}
+x=\sqrt{b}
+\end{equation}

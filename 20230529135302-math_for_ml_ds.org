@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a86c3acf-5e89-4152-bc96-fa615ad652cc
+:END:
+#+title: Math_for_ML_DS
+
+* Topics
+** [[id:fb3e09f0-0076-4a4f-b0f1-e11d7e8e3414][Linear Algebra]]
+** [[id:f33a43e5-2281-429f-b24d-f42c54b81ed2][Calculus]]
+** [[id:83c78316-63eb-4c74-a636-49486b296831][Probability and Statistics]]
