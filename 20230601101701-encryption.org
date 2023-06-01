@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       196036a9-f1ad-4f03-90da-f570c78b680d
+:END:
+#+title: Encryption
+
+* Methods
+IMPORTANT TO KNOW WHEN TO USE EACH ONE
+** SSE: Server-Side Encryption
+*** with Amazon S3-Managed Keys (Enabled by default)
+Managed by AWS
+Server side encryption
+AES-256
+set header to x-amz-server-side-encryption":"AES-256"
+
+*** with KMS Keys (AWS Key Management Service)
+PROS:
+ - user control
+ - audit keys using CloudTrail
+server side encryption
+set header to x-amz-server-side-encryption":"awskms"
+
+CONS:
+ - KMS limits
+ - KMS has own APIS: generate and decrypt
+   - Each call count towards KMS quotas
+
+
+*** Customer Provided Keys (SSE-C)
+Manage your own keys
+Server side encryption
+S3 does NOT store encryption
+uses HTTPS
+HTTP headers are used to encrypt
+
+*** Client side

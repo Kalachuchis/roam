@@ -3,6 +3,7 @@
 :END:
 #+title: Systems of Linear Equations
 #+STARTUP: latexpreview
+#+LATEX_HEADER: \usepackage{systeme}
 
 * Singular vs NonSingular
 
@@ -18,8 +19,39 @@
 - singular will become one line only
 
 * Determinant
+
 determines if matrix is singular or non-singular
 
-\begin{equation}
-x=\sqrt{b}
-\end{equation}
+* Solving Systems of Linear Equations
+
+\begin{math}
+\systeme{2a+5b=46,8a+b=32}
+\end{math}
+
+1. Isolate one part of equation
+\begin{math}
+\systeme{8a+20b=184,-(8a+b=32)}
+\end{math}
+
+2. remove the variable
+\begin{math}
+\systeme{19b=152}
+\end{math}
+
+3. Compute for the variable
+\begin{math}
+\systeme{b=8}
+\end{math}
+
+4. solve for the other variable
+\begin{math}
+\systeme{8a+8=32}
+\end{math}
+
+\begin{math}
+\systeme{8a=32-8}
+\end{math}
+
+\begin{math}
+\systeme{a=3}
+\end{math}

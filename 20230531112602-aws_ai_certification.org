@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       aa45f48e-dd94-4f0c-8b69-5461fafe9b85
+:END:
+#+title: AWS AI Certification
+
+* [[id:dd03e5ec-0f8c-47b8-8ff5-dabcac8cf6dc][Data Engineering in AWS]] (20%)
+** [[id:72526827-64dc-4684-babf-ac14a5a37bca][Storage]]
+
+* [[Id:3ff31be0-87e8-4373-820a-d508ad66ef83][EDA (AI cert)]]
+** [[id:1c040835-0825-4c1d-ad61-c080953257d1][Data Science]]
+
+* [[id:8753b969-b80e-4071-a993-5ea376231cb0][Modeling]]

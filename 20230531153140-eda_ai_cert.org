@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       3ff31be0-87e8-4373-820a-d508ad66ef83
+:END:
+#+title: EDA (AI cert)

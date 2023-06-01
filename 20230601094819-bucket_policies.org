@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       686fbb71-25bc-48db-a627-187e52212897
+:END:
+#+title: #+title: Bucket Policies
+
+* JSON based policies
+- Resources: what bucket or objects the policy affects
+- Effect: Allow or Deny
+- Actions: Set of API to allow or deny (GetObject, ReadObject, etc.)
+-
+* Use S3 bucket policy
+- Grant public access
+- Force encryption
+- Cross account access
+* Example
+Anonymous internet user can access a S3 bucket

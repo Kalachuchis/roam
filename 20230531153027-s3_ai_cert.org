@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       b2dbf08b-9381-4ae7-a28d-8bed161b543f
+:END:
+#+title: S3 (AI cert)
+
+
+* Glossary
+
+| bucket  | directory |
+| objects | files     |
+|         |           |
+
+* Overview
+- Allows people to store objects in buckets
+- buckets must have a globally unique name
+- keys to object is the full path to the file
+- max size 5TB
+- object tags are useful for security
+
+** Machine Learning
+- backbone for many ml services
+- infinite size
+- very durable
+- does not care what kind of file
+
+** Data Partitioning
+- By Date: s3://bucket/data/year/mont/day/hour/data_00.csv
+- By Product: s3://bucket/my-data-set/product-id/data_32.csv
+- Data partitioning will be handled by some tools
+
+* Storage Classes
+**
+* Security
+** User-Based
+IAM policies -
+** Resource-Based
+[[id:686fbb71-25bc-48db-a627-187e52212897][Bucket Policies]] - bucket wide rules from the s3 console  - allowscross account
+Object Access Control List
+Bucket Access Control List
+** [[id:196036a9-f1ad-4f03-90da-f570c78b680d][Encryption]]

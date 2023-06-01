@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       dd03e5ec-0f8c-47b8-8ff5-dabcac8cf6dc
+:END:
+#+title: Data Engineering in AWS
+
+This part is 20% of the AWS exam
+
+- Needed for Data science to clean data

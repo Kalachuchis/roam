@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       72526827-64dc-4684-babf-ac14a5a37bca
+:END:
+#+title: Storage
+
+* [[id:b2dbf08b-9381-4ae7-a28d-8bed161b543f][S3 (AI cert)]]
