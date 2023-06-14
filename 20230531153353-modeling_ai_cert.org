@@ -1,4 +1,0 @@
-:PROPERTIES:
-:ID:       8753b969-b80e-4071-a993-5ea376231cb0
-:END:
-#+title: Modeling (AI cert)

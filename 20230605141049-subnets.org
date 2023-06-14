@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       fbdb8a69-3942-45ad-ac5a-87aa355ed3f4
+:END:
+#+title: Subnets
+
+Network inside a your [[id:0444b2df-5213-45c5-a1e1-f457a28b9656][VPC]]
+
+* Network access control lists
+- which traffic may access the subnets
+- defines ip that are allowed

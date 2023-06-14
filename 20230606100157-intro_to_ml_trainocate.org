@@ -1,0 +1,64 @@
+:PROPERTIES:
+:ID:       dc9532cf-da3d-40ea-8e48-a25d4671c05d
+:END:
+#+title:  Intro to ML (Trainocate)
+* Machine learning
+* What about machine learning
+** Model
+*** What is it
+- it contains the parameters to derive the certain rules
+- derives rules from the data
+- adapts to complexities
+*** Trained Algorithm
+- Reversed math
+- nasaatin yung sagot tapos ittrain natin yung model para makita yung math equation na parang makakadescribe best nung probem
+** Parts?
+\begin{math}
+f(x) = ax_{0} + ax_{1}+  ... +ax_{n}
+\end{math}
+*** Features
+- usually x
+*** Weights
+- usually a
+- a has infinite values
+- if alam na yung mga a values meron na tayong model
+*** After getting weights
+- after makuha yung function dun magbbase yung mga labels o clasifications
+* Supervised learning
+- assumes there is data a priori
+- y can represent yes or no, continous value, etc
+
+** Binary Classification
+** Multiclass Classification
+** Regression Problem
+- meron siyang exact vaue na pwede siya ilabas
+- y is continuous
+- predicting future value of stock
+- time series usually regression
+* Unsupervised
+- no y value
+- you make your own labels
+- clustering data
+  - *HOMOGENEOUS GROUPS*
+** Use case
+* Reinforcement Learning
+- learning through trial and error
+- best when desired outcome is known but the exact path to acchieving is no
+- gives negative score then machine tries to do something different
+- penalize or reward ceertain behavior
+- has a policy or function constraint
+* Deep learning
+can learn on its own
+** Artificial neural networks
+- modeled based on our brain
+- first layer of neurons are the x's
+  difference with reinforcement learning
+  - is still basically a classification problem
+  - optimizes weights instead of final score
+  - does not have a policy
+*** bias
+*** Signal
+- baically f(x) or yung answer dun sa mga calculations na ginawa nung mga weights and features
+*** Activation function
+model
+function na inaapply sa Signal para makakuha ng prediction

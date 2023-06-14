@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       0444b2df-5213-45c5-a1e1-f457a28b9656
+:END:
+#+title: VPC
+VIRTUAL PRIVATE CLOUD
+
+- It isolates your networks
+  - availability zones
+- manages connection from your private ccloud to the public network
+- the IP address given to you to use your instances/availability zones
+- Default [[id:f6aee143-ecf2-4a12-ba95-b702561ed0dc][Route Table:]]
+  - everything in my cidr range is in my vpc
+
+
+* Security Groups
+- applied on a per instance
+- one way of controlling which access is allowed per instance

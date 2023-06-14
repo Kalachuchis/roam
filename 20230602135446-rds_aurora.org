@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a0956455-ad25-4853-b37d-db9d0764c204
+:END:
+#+title: RDS, Aurora
+* Overview
+- Relational stores
+- OLTP (Online Transaction Processing)
+- data is organized in rows
+- mostly used only for storing compared to [[id:7677027e-0c80-4e05-a195-3820aed29290][Redshiff]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d9786657-e85e-477c-b235-3dd890c1119d
+:END:
+#+title: Amazon GroundTruth
+* Labeling
+* Task type
+** images
+** nlp
+** other

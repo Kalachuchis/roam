@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       11dfec14-b875-45e5-831f-c1300fe66cbb
+:END:
+#+title: MQTT
+
+* Overview
+
+- Internet of Things thing
+- Standard messaging protocol
+- AWS IoT device can connect to cloud using MQTT

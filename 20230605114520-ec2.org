@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       db3d2d2d-75c2-4f76-86f8-eee4398b9cff
+:END:
+#+title: AWS EC2
+* Overview
+- Secure and resizable compute capacity
+- provision and launch in minutes
+- pay for capacity by the hour or second
+- building block of compute services of AWS
+
+
+** Amazaon Machine Image (AMI)
+- the operating system used by AWS servers
+- can use a custom image so it can be replicable
+** Storage
+- add more volumes (multiple drives)
+** Instance type
+- General purpose
+- Compute optimized
+  - CPU
+- Memory optimized
+  - RAM
+  - Database
+- Accelerated computing
+  - GPU
+  - Good for:
+    - training models
+    - graphics
+    - crypto
+- Storage optimized
+** Pricing
+*** AWS Free tier
+*** On-Demand Instances
+  - most expensive
+*** Spot instance
+  - cheapest alternative
+  - catch
+    - parang may bidding
+*** Savings plans
+- Reserved Instancess
+  - Always on
+  - pre pay for server (1year or something)
+  - may discount
+*** Dedicated hosts

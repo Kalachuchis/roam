@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       286923bc-46c1-4f23-bf08-dec86df84b57
+:END:
+#+title: Monitoring, Load Balancing and Scaling
+* Monitoring
+* Load Balancing
+handling multiple instances to simplify traffic
+** ELB
+*** Benefits
+- highly
+*** Componenets
+- Listener
+- Target groups
+- Rules
+*** Types
+**** Application Load Balancer
+**** Network
+**** Gateway
+**** Classic
+
+* Scaling
+** Vertical
+increasing size
+** Horizontal
+adding or removing servers
+** Auto scaling
+meron monitoring via cloudwatch tapos naka connect sa auto scaling group para madetermine kung pano ba magsscale

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f50779a4-ffe0-4829-99dc-e3cbe495ebf1
+:END:
+#+title: OpenSearch
+* Overview
+- indexing data
+- search amongst data points

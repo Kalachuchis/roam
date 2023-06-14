@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       46c166b8-e127-442a-abcf-4fd739ca2f1e
+:END:
+#+title: S3 Storage Classes
+* Standard
+* Standard-Infrequent Acccess
+* One Zone Infrequent Access
+* Instant
+* Flexible
+* Glacier

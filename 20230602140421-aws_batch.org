@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4b779727-b471-48d8-9a8d-618be4740dab
+:END:
+#+title: AWS Batch
+* Overview
+- docker images
+- can be used for any computin job
+- any non-ETL related

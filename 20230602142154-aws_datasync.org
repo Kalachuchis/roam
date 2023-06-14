@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a5759688-7b47-44b7-a992-1a2873855c42
+:END:
+#+title: AWS DataSync
+* Use
+data migration from local to AWS cloud so you can use services like sagemaker, s3 and others

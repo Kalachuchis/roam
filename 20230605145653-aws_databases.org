@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       5da699a3-a673-4a52-9546-7e931693f5ae
+:END:
+#+title: AWS Databases
+
+
+[[id:830362bc-6c3c-4f1e-9a5a-959859e78900][Data Stores]]
+* Relational
+- SQL
+- reduced redundancy
+- slower in terms of performance
+- install in your ec2 instance
+** Amazon RDS
+easily setup databases
+
+*** Types
+**** Commercial
+***** Oracle
+***** MSSQL
+**** Open Source
+***** MySQL
+***** Postgres
+***** MariaDB
+*** Instance classes
+**** Standard
+**** Memory Optimized
+**** Burstable
+*** Instance storage
+**** Genpurpose SSD
+**** Provisioned IOPS
+**** Magnetic
+*** Backups
+stored in [[id:b2dbf08b-9381-4ae7-a28d-8bed161b543f][S3]]
+can be automatic or manual
+* Non Relational
+** [[id:0ae13c77-39ab-4716-89d6-42436d279826][DynamoDB]]

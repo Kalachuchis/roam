@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       677be4fd-295a-4466-9c54-ccd7da155379
+:END:
+#+title: Skriba Levels
+
+1. JOBS
+   - largest unit of work in skriba
+   - retrieves all the client files then divides it into BATCHES
+2. BATCH
+   - a partition of a job
+   - default files per batch = 50
+   - MAX files per batch = 200
+3. FILE
+   - files
+   - supported formats
+     1. pdf
+     2. jpeg
+     3. png
+     4. bmp
+     5. tiff
+   - will be separated into page
+   - Conversion into pages are done at this level
+4. PAGE
+   - core logic is operated in page level
+   - this is where information is extracted
+   - all files are transformed into JPEG format

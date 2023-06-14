@@ -3,4 +3,21 @@
 :END:
 #+title: Storage
 
+* Storage types
+** Block Storage
+- main purpose is to mount it to a server
+- Instance store
+  - ephemeral storage
+- EBS
+  - virtual drives installed to your ec2
+  - SSD / HDD
+  - needs to create a snapshot to save
+** EFS (File Storage)
+- Elastic file storage
+- can connect by different stuff
+- should be linux based
+** Object Storage
+- Files are immutable
+  - good for pictures/ logs
 * [[id:b2dbf08b-9381-4ae7-a28d-8bed161b543f][S3 (AI cert)]]
+

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       b42696c5-68c2-4e6b-a5e4-43e25734fe58
+:END:
+#+title: Kinesis Data Streams
+
+* Overview
+- Data retention 24hrs to 365 days
+- Streams are divided into shards
+- data is immutable
+
+* Capacity Modes
+** Provisioned
+- scale manually
+- 1mbps per shard in
+- 2mbps per shard out
+- pay per shard provisioned per hour
+** On-Demand
+- auto scaling
+- 4mbps(default)
+- pay per stream per hour & data in/out per GB
+* Limits to know
+** Producer
+- 1mbps or 1000 messages at write PER SHARD
+- ProvisioneThroughputException
+** Consumer Classic
+- 2mbps at read PER SHARD
+- 5 api calls per second PER SHARD

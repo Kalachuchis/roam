@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3fbec6e8-ea96-4462-b9ce-777fdb3fa452
+:END:
+#+title: Skriba
+* Overview
+Takes in image or pdf file then outputs the following:
+- PDF file with highlitable and searchable text
+- Excel file containing extracted information
+
+* [[id:677be4fd-295a-4466-9c54-ccd7da155379][Skriba Levels]]
+Layers that skriba goes through to generate the final outputs
+
+*

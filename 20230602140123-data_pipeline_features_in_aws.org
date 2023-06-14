@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f97b8afe-1c56-480b-a167-31ff5fffac72
+:END:
+#+title: Data Pipeline Features in AWS
+* Overview
+Tasked to move data from one service to another
+
+* VS Glue
+- More control
+- more access since you own stuff

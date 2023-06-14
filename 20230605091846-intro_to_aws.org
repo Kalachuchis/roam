@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       2aa4b80b-48e4-4839-9ffa-55efd35183df
+:END:
+#+title: Intro to AWS
+* Cloud computing
+instead of on premise computer you use someone elses computer
+** Benefits
+- Pay as you go
+- Benefit from massive economies of scale
+- stop guessing capacity
+- increase speed and agility
+- cost savings
+- go global in minutes
+** AWS Global infrastructure
+aws is divided into several regions
+should select region based on these stuff
+*** Region selection
+- Latency
+- Pricing
+- Servce availability
+- Data compliance
+
+  Example:
+   Singapore is cheaper than hongkong kahit na mas malapit is hongkong sa philippines
+** Availability Zones
+AWS wants to create redundancy
+para maduplicate anf to have availability
+if one zone goes down it will still run
+** Edge Locations
+- are outside the regions
+- caching to another location to have less latency
+- content caching?
+- transf
+- routing
+- managed by AWS
+* Service management
+** AWS Management console
+** AWS CLI
+- needs Access tokens and Secret access key to run
+  - given by [[id:beac6f05-12bf-4db8-bb00-c6d1c461de78][AWS IAM]]
+** AWS SDK
+
+* AWS Shard responsibility model

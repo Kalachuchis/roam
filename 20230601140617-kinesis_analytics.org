@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       0ff355ad-2de2-419c-b6ce-cfec01db98d0
+:END:
+#+title: Kinesis Analytics
+
+* Overview
+
+** Uses
+*** Streaming ETL
+*** Continuous metrics generation
+*** Responsive analytics
+** Features
+- Pay only for resources consumed
+- serveless
+- auto scaling
+
+  Use Flink instead of SQL if not using Kinesis Firehose (as of time  of video)
+** Machine Leaning on Kinesis Data Analytics
+
+*** Random cut forest
+- SQL function for *anomaly detection*
+*** Hotspots
+- locates dense regions in your data

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       dbda4b9c-ff4e-4d3c-8e09-dd33f6e45000
+:END:
+#+title: LDA (Linear Discriminant Analysis)

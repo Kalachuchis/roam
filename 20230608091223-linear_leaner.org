@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f62763f6-69fb-47f9-b350-9cc429357e24
+:END:
+#+title: Linear Learner
+
+* for Binary classification
+Parang mag ddrawing ka ng isang line para maseparate yung mga class
+* for Regression
+hanapin mo yung straight line na parang nasa gitna ng mga poinrs / prediction

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       21b5a707-009e-4b10-a115-511229c31eff
+:END:
+#+title: Problem Formulation
+
+Should not get this part wrong so di magkamali yung buong ginagawa mo
+
+* Steps
+** Defining the problem
+lessen yung unused na stock
+** What model do we choose
+pwedeng chcheck kung ano mataas demand
+pwedeng di nalang iclassify yung mga products na less than 10 demnd
+** Frame the simplest solution
+* Choosing data
+- how much data do you have
+- how much access do you have
+- get a domain expert
+- evaluate the quality of your data
+  - check for missing data
+- start identifying features and labels
+- determine how much data we need
+** Using [[id:d9786657-e85e-477c-b235-3dd890c1119d][Amazon GroundTruth]]
+* How will you know you're doing it right
+** Model performance metrics
+how much accuracy
+** Business goal metrics
+how much savings
+naachieve ba yung business goal
+* Summary
+** explain first step
+** list some factors
+** some mistakes are greater than others

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       eceff97b-a7a4-4978-8231-e305d95fe2d7
+:END:
+#+title: AWS Fargate

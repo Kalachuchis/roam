@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7677027e-0c80-4e05-a195-3820aed29290
+:END:
+#+title: Redshift
+
+* Overview
+- Data warehousing, SQL analytics
+- OLAP (Online analytical processing)
+- data is organized by column
+- Used for analytics instead of just storage of data compared to [[id:a0956455-ad25-4853-b37d-db9d0764c204][RDS, Aurora]]

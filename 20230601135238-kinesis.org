@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       38e6d2de-0c11-412e-8eb3-b2a9849a96a7
+:END:
+#+title: Kinesis
+
+* Overview
+alternative to Apache Kafka
+great for real time big data, streaming processing frameworks
+
+** [[id:b42696c5-68c2-4e6b-a5e4-43e25734fe58][Kinesis Streams]]
+low latency streaing ingest at scale
+** [[id:ac653684-b2f5-4d23-bfd9-90f965336004][Kinesis Video Streams]]
+streaing video in real time
+** [[id:0ff355ad-2de2-419c-b6ce-cfec01db98d0][Kinesis Analytics]]
+real time analytics on streams
+** [[id:1d19e0c3-734c-4032-b813-9b662bfd74cb][Kinesis Firehose]]
+loads streams into S3, ElasticSearch and Splunk

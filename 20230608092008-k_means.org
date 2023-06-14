@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       fe437916-690d-4422-af4f-b95954aaa765
+:END:
+#+title: K-Means
+- K is yung prediction mo ng number of groups
+- means kasi sa steps
+  1. assign inital "leader"
+  2. check mo distance bawat row vs leader
+  3. assign group by row based sa nearest euclidian distance
+  4. next iteration compute for new "leader" by getting the average nung mga groups (from original data)
+- Good for marketing

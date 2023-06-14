@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       7dde86b7-7d2e-4bc2-8473-0514dfe279e7
+:END:
+#+title: Trainocate
+
+* Glossaray
+** Loss
+prediction vs actual lable
+* Technical Essentials
+** [[id:2aa4b80b-48e4-4839-9ffa-55efd35183df][Intro to AWS]]
+** [[id:2389f2b4-31e2-47b7-a3ad-586912a11c8c][AWS Compute]]
+** [[id:31e4e7a7-d68c-4291-9aa8-4c21ab9e43a5][AWS Networking]]
+** [[id:72526827-64dc-4684-babf-ac14a5a37bca][Storage]]
+** [[id:5da699a3-a673-4a52-9546-7e931693f5ae][AWS Databases]]
+** [[id:286923bc-46c1-4f23-bf08-dec86df84b57][Monitoring, Loadbalancing and]]
+* Machine Learning Pipeline
+** Overview
+- learn and apply
+  - Machine learning pipeline
+  - Amazon SageMaker
+*** What will you be able to do...
+ - Select and justify the appropriate ML approach to a problem
+ - build train and evaluate model
+ - apply steps of the ml pipeline
+ - describe best practices to create a solid ML pipeline
+   identify the steps to apply ML to business problems
+*** project options
+**** Flight delays
+detemine if a flight will be delayed
+**** Recommendation engine
+Recommend content based on Amazon.com search enginek
+**** Fraud detection
+identidy fraudulent activities using Amazon Sagemaker
+** Modules
+*** [[id:dc9532cf-da3d-40ea-8e48-a25d4671c05d][Intro to ML (Trainocate)]]
+*** [[id:0f533719-8ee0-42c1-8f40-5d0ce4a96737][Intro to Amazon Sagemaker]]
+*** [[id:21b5a707-009e-4b10-a115-511229c31eff][Problem Formulation]]
+*** [[id:42e4c45f-c180-45c3-b788-2b7dacb195f9][Data Preprocessing]]
+*** [[id:e5cc6c19-c30d-4b06-986d-40f316279748][Model Training]]
+* Tutorials Dojo Practice Exam
+** [[id:dd03e5ec-0f8c-47b8-8ff5-dabcac8cf6dc][Data Engineering in AWS]]`
+** [[id:3ff31be0-87e8-4373-820a-d508ad66ef83][EDA (AI cert)]]
+** [[id:e5cc6c19-c30d-4b06-986d-40f316279748][Model Training]]

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       830362bc-6c3c-4f1e-9a5a-959859e78900
+:END:
+#+title: Data Stores
+
+* [[id:7677027e-0c80-4e05-a195-3820aed29290][Redshift]]
+* [[id:a0956455-ad25-4853-b37d-db9d0764c204][RDS, Aurora]]
+* [[id:0ae13c77-39ab-4716-89d6-42436d279826][DynamoDB]]
+* [[id:f50779a4-ffe0-4829-99dc-e3cbe495ebf1][OpenSearch]]

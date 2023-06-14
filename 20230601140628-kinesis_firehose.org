@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       1d19e0c3-734c-4032-b813-9b662bfd74cb
+:END:
+#+title: Kinesis Firehose
+
+
+* Overvew
+- Fully managed service
+- more on ETL
+- delivery service
+- Near real time
+- Data Ingestion into *redshift/s3/elasticsearch/splunk*
+- auto scaling
+- Data conversion
+- data Transformation
+- pay amount of data going through

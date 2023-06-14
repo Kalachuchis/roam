@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0ae13c77-39ab-4716-89d6-42436d279826
+:END:
+#+title: DynamoDB
+* Overview
+- NoSQL
+- model output may be stored into dynamodb
+- key-value database
+- highly scalable
+- offeres encryption at rest
+* Core components
+** Table
+- collection of data
+** Attribute
+-
+** item

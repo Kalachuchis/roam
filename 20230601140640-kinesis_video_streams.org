@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       ac653684-b2f5-4d23-bfd9-90f965336004
+:END:
+#+title:Kinesis Video Streams

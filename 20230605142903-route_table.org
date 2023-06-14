@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f6aee143-ecf2-4a12-ba95-b702561ed0dc
+:END:
+#+title: Route Table
+
+controls subnets

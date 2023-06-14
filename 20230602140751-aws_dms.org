@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1d2c6485-c4f1-4865-8811-e19402fdaa86
+:END:
+#+title: AWS DMS
+
+AKA AWS Database Migration
+* Overview
+* Vs Glue

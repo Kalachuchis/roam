@@ -1,0 +1,87 @@
+:PROPERTIES:
+:ID:       42e4c45f-c180-45c3-b788-2b7dacb195f9
+:END:
+#+title: Data Preprocessing
+* Data storage where
+** [[id:188b6456-d2d9-43f7-ac42-4824bebee1c9][AWS Data Lake]]
+** [[id:b2dbf08b-9381-4ae7-a28d-8bed161b543f][S3 (AI cert)]]
+** important?
+*** Parallel data access
+fsx yung gagamitin
+*** training  data load times
+* Reformatting data
+** pandas
+*** uses
+** numpy
+** Scikit-Learn
+data mining and data analysis
+** Malotlib
+data visualization
+** Seaborn
+another visualization
+* Cleaning up dirty data
+- need to standardize data
+- replace missing items
+- one-hot encoding
+  - pag same level sila ng value pero iba
+-
+* Descriptive statistics
+- compute meta data
+- check if may outliers
+- df.describe(include='all')
+- numerical and catregorical data
+** Mean/Mdeian/Mode
+- Mean - average
+- Median - exact middle of the distribution
+*** Symmetrical distribution
+same position yung mean and median
+*** Skewed distribution
+not same position yung mean and median
+** Outliers
+- lie at abnormal distance from other values
+- it can:
+  - add richness
+  - make accurate predictions more difficult
+  -
+*** Determining outliers
+- having a high standard deviation
+-
+**** Types of outliers
+***** Artificial
+delete outlier
+***** Natural
+- Transform outlier
+  - using log of each value to transform
+- impute a new value
+  - using mean
+  - consequences:
+    - inconsitencies
+*** Why are there missing values
+identif
+**** Finding null values
+- df.isnull().sum()
+- df.isnull().sum(axis=1) -> row
+**** dropping missing values
+***** rows
+not enough training samples (overfitting)
+***** columns
+not enough features (underfitting)
+* Data visualization
+** Categorical data
+- Bar graph
+** Numerical
+- Bar graph (histogram)
+  - how many peaks
+  - is there skewness
+  - more normal = more symmetric distribution
+- Density plots
+  - plot.kde()
+  - plot.box()
+    - good for quartiles
+    - yung lines are yung 75 percentile 25 percentile
+** Multivariate statistics
+*** Scatterplot and Scatter plot matrix
+- checking whether features are correlated
+  - if meron highly correlated pwede idrop yung isang feature
+*** Scatterplot with identification
+- check kung pwede bang madivide ang dalawang faeatures with respect to label

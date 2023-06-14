@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2389f2b4-31e2-47b7-a3ad-586912a11c8c
+:END:
+#+title: AWS Compute
+
+* [[id:db3d2d2d-75c2-4f76-86f8-eee4398b9cff][AWS EC2]]
+* Containerized stuff
+**
+** [[id:dc69b13b-0e64-440b-b096-f8bb9bed1421][AWS Lambda]]
+** [[id:eceff97b-a7a4-4978-8231-e305d95fe2d7][AWS Fargate]]

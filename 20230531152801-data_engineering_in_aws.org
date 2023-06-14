@@ -6,3 +6,15 @@
 This part is 20% of the AWS exam
 
 - Needed for Data science to clean data
+
+
+* [[id:b2dbf08b-9381-4ae7-a28d-8bed161b543f][S3 (AI cert)]]
+* [[id:38e6d2de-0c11-412e-8eb3-b2a9849a96a7][Kinesis]]
+* [[id:830362bc-6c3c-4f1e-9a5a-959859e78900][Data Stores]]
+* [[id:f97b8afe-1c56-480b-a167-31ff5fffac72][Data Pipeline Features in AWS]]
+* [[id:4b779727-b471-48d8-9a8d-618be4740dab][AWS Batch]]
+* [[id:1d2c6485-c4f1-4865-8811-e19402fdaa86][AWS DMS]]
+* [[id:06c87dac-e4c0-48ed-a52f-97d22f2deffc][Step Functions]]
+* Other stuff
+** [[id:a5759688-7b47-44b7-a992-1a2873855c42][AWS DataSync]]
+** [[id:11dfec14-b875-45e5-831f-c1300fe66cbb][MQTT]]

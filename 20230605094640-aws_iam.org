@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       beac6f05-12bf-4db8-bb00-c6d1c461de78
+:END:
+#+title: AWS IAM
+
+AWS Identity and Access Management
+
+- Deals with Authentication and Autorization
+  - Authentication: Who are you
+  - Authorization: What can you do
+* Features
+- Global
+- Integrated with AWS serviceese
+- Shared access to your AWS account
+- Multi-factor authentication
+- Identity federation
+* AWS root user
+ - Can do everything
+ - Bad practice to use root user
+* IAM policies
+- Documents that grant or deny permissions to AWS services
+- Best practice: Follow the security principle of least privilege
+  -
+- https://awspolicygen.s3.amazonaws.com/policygen.html
+  -
+* IAM groups
+groups of users
+* IAM roles
+- Identity that can be assumed by a person or a service to gain temporary service
+- gives temporary access only
+  - can make one with an expiration

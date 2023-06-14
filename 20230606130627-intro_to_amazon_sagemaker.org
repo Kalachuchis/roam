@@ -1,0 +1,51 @@
+:PROPERTIES:
+:ID:       0f533719-8ee0-42c1-8f40-5d0ce4a96737
+:END:
+#+title: Amazon Sagemaker
+
+* Overview
+** What is it
+fully managed service
+** Where does it fit?
+Data collection
+training
+proccesing
+** Instance types
+
+*** ideal for notebooks
+**** t family
+short jobs
+*** ideal for traditional machine learning trainin
+**** m family
+standard cpu to memory ratio
+**** r family
+memory optimized
+**** c famuly
+compute optimized
+**** p family
+*** ideal for deep learning
+**** g family
+*** ideal for inference
+**** Elastic inference
+** Ground truth
+- human labelers for data priori
+- manual hatak
+***
+** data vis
+mas ok mag notebook ka nalang
+** model selection
+- use buitin sagemaker
+- write a script in your framework
+- get an algo from aws
+- bring your own
+** Deployment
+- Online - generate one prediction at a time
+- Batch - Generate a batch of prediction all at once
+* Training
+** Algorithms
+*** built in algorithms
+*** custom scripts
+*** BYO algortihm
+Docker
+** Parameters and Hyperparameters
+** Hyperparameter tuning

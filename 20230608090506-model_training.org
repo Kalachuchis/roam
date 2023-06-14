@@ -1,0 +1,125 @@
+:PROPERTIES:
+:ID:       e5cc6c19-c30d-4b06-986d-40f316279748
+:END:
+#+title: Model Training
+* Algorithms
+- choosing the right algorithm to answer the business question correctly
+** Supervised learning
+*** Classification
+**** Binary
+- [[id:f62763f6-69fb-47f9-b350-9cc429357e24][Linear Leaner]]
+- XGBoost
+- KNN
+**** Multiclass
+- XGBoost
+- KNN
+*** Regression
+- XGBoost
+- [[id:f62763f6-69fb-47f9-b350-9cc429357e24][Linear Learner]]
+- KNN
+- Facctorization machine (regression exclusive)
+** Unsupervised Learning
+*** Clustering
+- [[id:fe437916-690d-4422-af4f-b95954aaa765][K-Means]]
+- [[id:dbda4b9c-ff4e-4d3c-8e09-dd33f6e45000][LDA]]
+*** Topic modeling
+- [[id:dbda4b9c-ff4e-4d3c-8e09-dd33f6e45000][LDA (Linear Discriminant Analysis)]]
+*** [[id:1e6d7e4e-b099-49e0-ae63-f66a765fdf45][Embeddings (ML)]]
+- Object2Vec
+*** Anomaly detection
+- Random cut fores
+- UP insights
+*** [[id:949361b6-e395-45d1-af41-02cb7f00b3a5][Dimensionality Reduction (ML)]]
+- PCA
+** What kind of data are you training wth
+*** Text
+**** Text classification
+**** Word2Vec
+**** Machine translation
+**** Topic modeling
+*** Speech
+**** Sequence to sequence
+*** Image/video
+**** Image classification
+***** ResNet
+**** Object detection
+***** SSD with VGG/Resnet
+**** Semantic segmentation
+***** FCN
+***** PSP
+***** Deeplab v3 with ResNet
+*** Time series
+**** DeepAR
+* Formatting data
+** CSV
+** record protobuf
+* Splitting data and cross-validation
+** training
+- largest
+** evaluation
+- check if model is doing ok
+- optimize
+- check if maganda ba yung hyperparameters
+- pwede ulitin
+** testing
+* Testin and validating the data
+- be careful in splitting kasi minsan may mga seasonal patterns li
+** Cross validation
+*** K-fold validation
+- split data set into k then having different validation set for each k model
+*** K size and bias
+- higher k lower bias higher error
+*** Leave-one-out cross-validation
+*** Stratified K-Fold cross-validation
+removing data para maaccomodate yung minority data
+* Model Training
+** Loss
+*** RMSE
+- used for supervised and unsupervisd
+*** Log likelihood loss
+- used for classification
+** Optimization
+*** Minima
+**** Global Minima
+no way to compute global minima
+**** Local Minima
+**** Gradient Descent
+***** gradient
+- rate of change
+- tied to learning rate
+- low learning rate = mabagal baka maubusan ng ime
+- high learning rate = mabilis baka mamiss yung minima
+***** Stochastic Gradient Descent
+
+***** Mini-Batch Gradient Descent
+* [[id:0f533719-8ee0-42c1-8f40-5d0ce4a96737][Intro to Amazon Sagemaker]]
+* Validation
+** Variance
+how disperced are the results
+** Bias
+gap between predicted value and actual value
+** Confusion Matrix
+|   | P  | N  |
+|---+----+----|
+| P | TP | FN |
+| N | FP | TN |
+|   |    |    |
+TP - True positive
+FP- False positive
+*** Accuracy
+(TP+TN)/(TP+TN+FP+FN)
+- Less effective when there are lots of true negative
+*** Precision
+TP/TP+FP
+- Best when the cost of false positive is hight
+*** Recall (or sensitivity)
+TP/TP+FN
+- Best when cost of false negative is hight
+*** F1 Score
+(2*Precision*Recal)/(Precision*Recall)
+*** AUC-ROC curve
+- uses sensitiveity (TP rate) and specificity (FP rate)
+- AUC > 0.5 = Good
+*** For Regression
+**** MSE (Mean Square Error)
+**** R^2

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       686fbb71-25bc-48db-a627-187e52212897
 :END:
-#+title: #+title: Bucket Policies
+#+title: Bucket Policies
 
 * JSON based policies
 - Resources: what bucket or objects the policy affects
