@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       3fd61aff-cc1b-44f5-bdd1-0332baf26cb3
+:END:
+#+title: Skriba Training
+* How to
+**
+* NLP
+- find unique words for that particular document
+- [[id:f3360dbe-108f-46fc-8eaf-b9ddcf39db52][TF-IDF]]
+- pag di nasalo ng cv pupunta na sa NLP
+** Templates
+- form of the document
+- no filled out details
+- nakukuha yung template based sa tf-idf score
+  - frequent across all documents
+  - pag sa isang document lang mapepenalize ka
+- prediction of new document
+  1. get set of words from input document
+  2. gets sum of intersection ng templates top 10 words tfidf score tapos yun yung confidence score
+     1. yung mga present sa template na present sa input document per template
+  3. checks if above threshhold
+  4. [[id:dd865534-e5a8-468b-8f2f-4569fd3645c0][Lowes Ratio]] for pairs of passed threshold documents if more than 1
+  5. if pass goes to cropping
+
+** SkribaNLPClassificationTrainingWorkflow
+- maximize score instead of minimizing error
+  - kaya daw siya gradient ascent
+-
+** Cropping
+- icrop yung input image to make it look like the reference image
+- [[id:21b905de-50e2-4efc-80c4-c9a2a779a9c7][Homography]]
+* Hyperparameter tuning
+- uses [[id:4f20944e-9872-4dcf-8e81-9f2ec297f2ef][Gradient Descent]] for searching good values to use
+- gets 8 combination of the three hyperparameters
+- Hyperparameters used for training:
+  - threshold
+  - lowes ratio
+  - max number of words
+- from random 8 gets random values based on step size then gets best scores then sets as the parameter
+- step size
+  - gaano kalayo from previous parameter values

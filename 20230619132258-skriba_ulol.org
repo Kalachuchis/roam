@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7c922036-3955-4e0a-8ad1-8e23109e59e7
+:END:
+#+title: Skriba Ulol
+* For NLP Classification Training Workflow
+- bawal isang training
+- bawal isang template

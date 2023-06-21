@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       d76a4c47-eb79-4fad-9f16-18fa21eb85bf
+:END:
+#+title: Skriba Job Processing Workflow
+
+role: skriba-deployment-administrator
+
+
+* Steps
+** Amazon EventBridge
+- For scheduling
+- <PROCESS GROUPNAME>-REG-<UNIQUE ID>
+- uses cronjobs for scheduling
+  - runs every 15 minutes 0-9 hr mon to friday
+  - in UTC
+  - 8am - 6pm in lcoal time
+** SQS Queue
+- SkribaJobScheduleQueue
+- helps manage messages
+- connects producer and consumers
+- benefits
+  - you can retry failed producer messages
+** Lambda
+- code

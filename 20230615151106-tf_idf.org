@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f3360dbe-108f-46fc-8eaf-b9ddcf39db52
+:END:
+#+title: TF-IDF
+
+Word scoring thing
+- tf - term frequency
+- idf - inverse document frequency

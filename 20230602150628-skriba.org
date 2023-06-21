@@ -9,5 +9,8 @@ Takes in image or pdf file then outputs the following:
 
 * [[id:677be4fd-295a-4466-9c54-ccd7da155379][Skriba Levels]]
 Layers that skriba goes through to generate the final outputs
-
+* [[id:d76a4c47-eb79-4fad-9f16-18fa21eb85bf][Skriba Job Processing Workflow]]
+* [[id:ab361e55-55f1-4493-a0be-6fa3c32e872a][Skriba Data Gathering]]
+* [[id:3fd61aff-cc1b-44f5-bdd1-0332baf26cb3][Skriba Training]]
 *
+* [[id:7c922036-3955-4e0a-8ad1-8e23109e59e7][Skriba Ulol]]

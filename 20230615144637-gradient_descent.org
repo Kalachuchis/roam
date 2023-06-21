@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       4f20944e-9872-4dcf-8e81-9f2ec297f2ef
+:END:
+#+title: Gradient Descent

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       dd865534-e5a8-468b-8f2f-4569fd3645c0
+:END:
+#+title: Lowes Ratio
+
+how near are two points
+
+\begin{math}
+1-\frac{t1}{t2}^2
+\end{math}
